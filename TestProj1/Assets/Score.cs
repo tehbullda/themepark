@@ -20,6 +20,11 @@ public class Score : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		score++;
 	}
+
+    void OnTriggerEnter(Collider col) { 
+        if (col.gameObject.tag == "ScoreObject") {
+            score += 50;
+        } 
+    }
 }
