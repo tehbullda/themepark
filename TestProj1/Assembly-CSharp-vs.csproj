@@ -49,6 +49,7 @@
      <Compile Include="Assets\MP3Import.cs" />
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\Playlist.cs" />
+     <Compile Include="Assets\Score.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
