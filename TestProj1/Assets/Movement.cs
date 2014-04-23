@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour {
 		// Get the horizontal and vertical axis
 		// By default they are mapped to the arrow keys
 		// The value is in the range -1 to 1
-		//float translation = Input.GetAxis ("Vertical") * speed;
+		//float translation = Input.GetAxis ("Vertical") * speed
 		
 		// Make it move 10 meters per second instead of 10 meters per frame
 		//translation *= Time.deltaTime;
