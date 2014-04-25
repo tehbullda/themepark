@@ -3,13 +3,13 @@
 var speed : float = 5.0f;
 
 function Update() {
-	transform.Translate(Vector3(0, 0, -1) * Time.deltaTime * speed);
+	transform.Translate(Vector3(0, 1, 0) * Time.deltaTime * speed);
 	
 	if (transform.localPosition.z <= -30) {
-		Destroy (gameObject);
+		transform.localPosition.z += 60;
 	}
 }
 
 function Hit () {
-	Destroy (gameObject);
+	transform.localPosition.z += 60;
 }
