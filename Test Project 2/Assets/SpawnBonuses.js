@@ -10,6 +10,6 @@ function Update () {
 	
 	if (spawnTime > TimeBetweenSpawns) {
 		spawnTime -= TimeBetweenSpawns;
-		var newBonus : GameObject = Instantiate(bonus, Vector3(Random.Range(-5, 5), Random.Range(3, 7), 0), transform.rotation);
+		var newBonus : GameObject = Instantiate(bonus, Vector3(Random.Range(-5, 5), Random.Range(2, -5), 0), transform.rotation);
 	}
 }

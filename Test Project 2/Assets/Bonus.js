@@ -11,5 +11,5 @@ function Update() {
 }
 
 function Hit () {
-	Destroy (gameObject);
+	animation.Play("Explode");
 }

@@ -11,5 +11,6 @@ function Update() {
 }
 
 function Hit () {
-	transform.localPosition.z += 60;
+	animation.Play("Explode");
+	//transform.localPosition.z += 60;
 }
