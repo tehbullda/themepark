@@ -48,9 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Bonus.js" />
      <Compile Include="Assets\Boss.js" />
+     <Compile Include="Assets\Collision.js" />
+     <Compile Include="Assets\Fences.js" />
      <Compile Include="Assets\Ground.js" />
      <Compile Include="Assets\Melee.js" />
      <Compile Include="Assets\SpawnBonuses.js" />
+     <Compile Include="Assets\SpawnTarget.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
