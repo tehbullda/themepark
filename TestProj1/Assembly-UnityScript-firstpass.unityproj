@@ -55,7 +55,11 @@
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
+<<<<<<< HEAD
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+=======
+     <None Include="Assets\Asset\Shaders\Normal-Diffuse.shader" />
+>>>>>>> 3a75074750a639f6ae60597cb1feb34cc7cce569
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="ZDK">
  <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>

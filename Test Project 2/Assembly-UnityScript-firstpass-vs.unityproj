@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{51102F0C-4E87-88C1-2972-FBA4BC4FA001}</ProjectGuid>
+	<ProjectGuid>{F5F510C8-C0D2-56B6-AAFA-D6C773776DDB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -51,7 +51,15 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="ZDK">
+ <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
