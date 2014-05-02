@@ -63,7 +63,14 @@ function Update() {
         player_speed = 0;
         speed = player_speed;
         if (killscreen_currenttime >= killscreen_duration) { 
-        	Application.LoadLevel(2);
+        	// If highscore has been beat, go to the highscorescene
+        	if (ScoreJS.score > ScoreJS.highscore) {
+        		Application.LoadLevel(2);
+        	}
+        	//otherwise return to main menu
+        	else { 
+        		Application.LoadLevel(0);
+        	}
         }
     }
 }
