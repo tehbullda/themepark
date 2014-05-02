@@ -22,6 +22,11 @@ var lance_pos_x : float;
 var lance_pos_y : float;
 var lance_pos_z : float;
 
+function Start() { 
+	player_lost = false;
+	killscreen_currenttime = 0.0f;
+	display_lost = false;
+}
 
 function Update() {
     if (!player_lost) {

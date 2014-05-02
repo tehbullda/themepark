@@ -12,8 +12,6 @@ public class ZigFollowHandPoint : MonoBehaviour
 	Vector3 startPos;
 	Vector3 desiredPos;
 	
-	private int screenshotCount = 0;
-
 	private float rotationX;
 	private float rotationY;
 

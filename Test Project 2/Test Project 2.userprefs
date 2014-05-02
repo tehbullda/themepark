@@ -1,20 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MenuObject.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Melee.js">
     <Files>
-      <File FileName="Assets\MenuObject.cs" Line="1" Column="1" />
-      <File FileName="Assets\ZigFu\Scripts\Viewers\ZigImageViewer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Melee.js" Line="1" Column="1" />
-      <File FileName="Assets\SpawnBonuses.js" Line="1" Column="1" />
-      <File FileName="Assets\Bonus.js" Line="1" Column="1" />
-      <File FileName="Assets\SpawnTarget.js" Line="1" Column="1" />
-      <File FileName="Assets\Boss.js" Line="1" Column="1" />
-      <File FileName="Assets\ScoreJS.js" Line="1" Column="1" />
-      <File FileName="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" Line="1" Column="1" />
-      <File FileName="Assets\FixCameraRotation.cs" Line="1" Column="1" />
-      <File FileName="Assets\ZigFu\Scripts\Viewers\ZigDepthViewer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Countdown.cs" Line="1" Column="1" />
+      <File FileName="Assets\ScoreJS.js" Line="14" Column="86" />
+      <File FileName="Assets\Melee.js" Line="28" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
