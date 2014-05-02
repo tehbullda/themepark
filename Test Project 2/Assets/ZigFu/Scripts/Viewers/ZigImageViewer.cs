@@ -13,6 +13,8 @@ public class ZigImageViewer : MonoBehaviour
     // Use this for initialization
 
     private int screenshotCount = 0;
+	public static float waitTime = 5.0f;
+	static bool pictureTaken = false;
 
 
     void Start()
@@ -44,7 +46,8 @@ public class ZigImageViewer : MonoBehaviour
         }
         texture.SetPixels32(outputPixels);
         texture.Apply();
-        if (Input.GetKeyDown("f9")) {
+		waitTime -= Time.deltaTime;
+		if (waitTime <= 0.0f && !pictureTaken) {
            string screenshotFilename;
             do
             {
@@ -56,11 +59,14 @@ public class ZigImageViewer : MonoBehaviour
             BinaryWriter binary = new BinaryWriter(file);
             binary.Write(texture.EncodeToPNG());
             file.Close();
+			pictureTaken = true;
         }
     }
 
     void Zig_Update(ZigInput input)
     {
-        UpdateTexture(ZigInput.Image);
+		if (!pictureTaken) {
+        	UpdateTexture(ZigInput.Image);
+		}
     }
 }
