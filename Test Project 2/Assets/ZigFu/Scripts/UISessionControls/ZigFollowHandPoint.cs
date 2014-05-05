@@ -20,15 +20,21 @@ public class ZigFollowHandPoint : MonoBehaviour
 	
 	public float minimumY = 0.0F;
 	public float maximumY = 0.0F;
-	
+
+	public bool tracked = false;
+
 	void Start() {
 		desiredPos = transform.localPosition;
-		startPos = transform.localPosition;
+		//startPos = transform.localPosition;
 	}
 	
 	void Update() {
-		foreach (ZigTrackedUser currentUser in ZigInput.Instance.TrackedUsers.Values)
-		{
+
+		foreach (ZigTrackedUser currentUser in ZigInput.Instance.TrackedUsers.Values) {
+			if (!tracked) {
+				startPos = currentUser.Position;
+				tracked = true;
+			}
 			//Vector3 pos = ClampVector(Vector3.Scale(desiredPos - currentUser.Position, Scale) + bias, -0.5f * bounds, 0.5f * bounds);
 			//pos.y = 0;
 		
@@ -40,9 +46,14 @@ public class ZigFollowHandPoint : MonoBehaviour
 			rotationY = startPos.y - desiredPos.y;
 			rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
 
+			Debug.Log("X: " + rotationX + " Y: " + rotationY);
+
 			transform.localEulerAngles = new Vector3(-rotationY, -rotationX, 0);
 			
 			desiredPos = currentUser.Position;
+		}
+		if (ZigInput.Instance.TrackedUsers.Count == 0) {
+			tracked = false;
 		}
 	}
 	

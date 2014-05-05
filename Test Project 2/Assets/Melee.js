@@ -1,4 +1,6 @@
 ﻿#pragma strict
+import System;
+import System.IO;
 
 static var player_speed = 0.0f;
 var speed : float;
@@ -8,12 +10,16 @@ var space_pressed : boolean = false;
 // static var score : int = 0;
 var display_score : int;
 
-var killscreen_duration : float = 3.0f;
+private var killscreen_duration : float = 3.0f;
 private var killscreen_currenttime : float = 0.0f;
 
 var lost_splash : Texture;
+static var player_missed : boolean = false;
 static var player_lost : boolean = false;
 var display_lost : boolean;
+
+public var AllowedMisses : int = 3;
+static var current_misses : int = 0;
 
 var lance_range : float = 0.15f;
 var hit_percition : float;
@@ -30,11 +36,18 @@ function Start() {
 
 function Update() {
     if (!player_lost) {
+    if (player_missed) {
+       	current_misses++;
+       	if (current_misses >= AllowedMisses) {
+       		player_lost = true;
+       	}
+       	player_missed = false;
+    }
         lance_pos_x = transform.position.x;
         lance_pos_y = transform.position.y;
         lance_pos_z = transform.position.z;
 	
-        if (Input.GetKeyDown("space")/* && !space_pressed*/) {
+        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)/* && !space_pressed*/) {
             player_speed += 5.0f;
             space_pressed = true;
             retardation = 0.995f;
@@ -45,7 +58,7 @@ function Update() {
         player_speed = (player_speed - 5 * Time.deltaTime) * retardation;
     
         // makes the slowdown when you stop mashing space "exponential".
-        retardation -= 0.001f;
+        //retardation -= 0.001f;
 	
         if (player_speed < 0) {
             player_speed = 0;
@@ -73,7 +86,7 @@ function Update() {
         		Application.LoadLevel(2);
         	}
         	//otherwise return to main menu
-        	else { 
+        	else {
         		Application.LoadLevel(0);
         	}
         }
@@ -85,7 +98,10 @@ function OnGUI() {
         display_lost = player_lost;
         GUI.DrawTexture(Rect(0,0,Screen.width,Screen.height), lost_splash, ScaleMode.ScaleToFit);
         if (ScoreJS.score > ScoreJS.highscore) {
-        	PlayerPrefs.SetInt("High Score", ScoreJS.score);
+        	var  fileName = "HighScore.txt";
+	        var sr = File.CreateText(fileName);
+	        sr.WriteLine ("HighScore: {0}", ScoreJS.score);
+	        sr.Close(); 
         }
     }
 }

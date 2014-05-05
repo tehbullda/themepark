@@ -11,6 +11,12 @@ public var maximum_target_spawn_time = 5.0f;
 public var MaximumAllowedTargets : int = 3;
 static var CurrentTargetCount : int = 0;
 
+function Start () {
+	CurrentTargetCount = 0;
+	target_spawn_time = 0.0f;
+	target_strength = 1.0f;
+}
+
 function Update () {
 	target_spawn_time += Time.deltaTime;
 	target_strength += Time.deltaTime;

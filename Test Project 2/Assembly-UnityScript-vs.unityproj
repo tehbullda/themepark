@@ -55,6 +55,9 @@
      <Compile Include="Assets\ScoreJS.js" />
      <Compile Include="Assets\SpawnBonuses.js" />
      <Compile Include="Assets\SpawnTarget.js" />
+     <Compile Include="Assets\Speedometer_text.js" />
+     <Compile Include="Assets\misscounter.js" />
+     <Compile Include="Assets\showhighscore.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
