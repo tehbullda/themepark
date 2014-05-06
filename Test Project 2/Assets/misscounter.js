@@ -9,6 +9,7 @@ function Start() {
 function Update () {
 	if (current != Melee.current_misses) {
 		renderer.material.mainTexture = textureArray[Melee.current_misses];
+		renderer.material.shader = Shader.Find("Transparent");
 		current = Melee.current_misses;	
 	}
 }
