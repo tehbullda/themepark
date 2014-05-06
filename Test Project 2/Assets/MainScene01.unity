@@ -2514,7 +2514,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 742936469}
   m_GameObject: {fileID: 425460157}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
@@ -2561,7 +2561,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 425460157}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66404a9801a096f42bc4c7a2b54a948e, type: 3}
   m_Name: 
@@ -4090,7 +4090,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled
@@ -6909,7 +6909,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1118258488}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: -.401795208, y: -2.53442502, z: 5.57042646}
+  m_LocalPosition: {x: -.401795208, y: -2.61038566, z: 5.57042694}
   m_LocalScale: {x: 1.40026951, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761454559}
@@ -8429,7 +8429,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1319517723}
   m_LocalRotation: {x: 1.26192219e-07, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.05777025, y: -4.38552625e-08, z: .400282413}
+  m_LocalPosition: {x: -3.99516964, y: -1.20419588e-06, z: .489476442}
   m_LocalScale: {x: .114295058, y: 1.03999996, z: .52226913}
   m_Children: []
   m_Father: {fileID: 761454559}
@@ -11340,7 +11340,6 @@ GameObject:
   - 4: {fileID: 1869475436}
   - 33: {fileID: 1869475435}
   - 23: {fileID: 1869475434}
-  - 114: {fileID: 1869475437}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -11389,20 +11388,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1927141326}
---- !u!114 &1869475437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1869475433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a4debc9ad1110f6d00074c88d76c639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 425460162}
-  damping: 6
-  smooth: 1
 --- !u!1 &1891475636
 GameObject:
   m_ObjectHideFlags: 0
