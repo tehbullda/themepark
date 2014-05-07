@@ -24,17 +24,17 @@
 		var percentage : float = speed / speedneeded;
 		var nextpos : float = 8f * percentage;
 		if (percentage < 1.0f) {
-			nextpos = (3.5f * percentage) - 4f;
+			nextpos = (2.7f * percentage) - 3.1f;
 		}
 		else if (percentage >= 1f && percentage < 2f) {
 			percentage -= 1f;
-			nextpos = (4.5f * percentage) - 0.5f;
+			nextpos = (3.5f * percentage) - 0.4f;
 		}
 		else {
-			nextpos = 4f;
+			nextpos = 3.15f;
 		}
 		//if (nextpos > 4f) {
 			//nextpos = 4f;
 		//}
-		speed_indicator.transform.localPosition = new Vector3(nextpos, 0,0);
+		speed_indicator.transform.localPosition = new Vector3(nextpos, speed_indicator.transform.localPosition.y,speed_indicator.transform.localPosition.z);
 	}
