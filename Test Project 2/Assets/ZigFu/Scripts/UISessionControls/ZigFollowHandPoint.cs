@@ -46,11 +46,12 @@ public class ZigFollowHandPoint : MonoBehaviour
 			rotationY = startPos.y - desiredPos.y;
 			rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
 
-			Debug.Log("X: " + rotationX + " Y: " + rotationY);
-
 			transform.localEulerAngles = new Vector3(-rotationY, -rotationX, 0);
-			
-			desiredPos = currentUser.Position;
+            //float distance = Math.Abs((currentUser.Position.x - desiredPos.x) / (currentUser.Position.y - desiredPos.y));
+            float distance = (float)Math.Sqrt(Math.Pow(currentUser.Position.x - desiredPos.x, 2) + Math.Pow(currentUser.Position.y - desiredPos.y, 2));
+            if (distance > 5f) {
+                desiredPos = currentUser.Position;
+            }
 		}
 		if (ZigInput.Instance.TrackedUsers.Count == 0) {
 			tracked = false;

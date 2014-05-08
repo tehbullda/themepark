@@ -1370,7 +1370,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 226190763}
   m_LocalRotation: {x: 8.74227766e-08, y: -1, z: -3.82137093e-15, w: 4.37113883e-08}
-  m_LocalPosition: {x: 0, y: 5.15783596, z: -6.38990355}
+  m_LocalPosition: {x: -.100000001, y: 5.15783596, z: -6.38990355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761454559}
@@ -1386,7 +1386,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b92b319cd3a62d148b54f6839a311c3d, type: 2}
+  - {fileID: 2100000, guid: b757ec6248e82e94dad2d13ec793a9e5, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2514,7 +2514,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 742936469}
   m_GameObject: {fileID: 425460157}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
@@ -2561,7 +2561,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 425460157}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66404a9801a096f42bc4c7a2b54a948e, type: 3}
   m_Name: 
@@ -4090,7 +4090,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled

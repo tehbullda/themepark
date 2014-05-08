@@ -19,7 +19,6 @@
 	function Update () {
 		var speed : float = Melee.player_speed;
 		var speedneeded : float = SpawnTarget.target_strength;
-		Debug.Log(speedneeded);
 				
 		var percentage : float = speed / speedneeded;
 		var nextpos : float = 8f * percentage;
