@@ -15,7 +15,7 @@ function Update () {
 	
 	if (bonus_spawn_time > minimum_bonus_spawn_time && bonus_count < AllowedBonusCount) {
 		bonus_spawn_time -= minimum_bonus_spawn_time;
-		var newBonus : GameObject = Instantiate(bonus_object, Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.5f, 0.5f), 100), transform.rotation);
+		var newBonus : GameObject = Instantiate(bonus_object, Vector3(Random.Range(-3.0f, 3.0f), Random.Range(4f, 5f), 100), transform.rotation);
 		bonus_count++;
 	}
 }
