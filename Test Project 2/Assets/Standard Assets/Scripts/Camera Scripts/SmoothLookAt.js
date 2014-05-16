@@ -16,6 +16,7 @@ function LateUpdate () {
 		{
 			// Just lookat
 		    transform.LookAt(target);
+		    
 		}
 	}
 }

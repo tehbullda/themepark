@@ -1,1 +1,1 @@
-HighScore: 45
+HighScore: 17

@@ -21,10 +21,13 @@ public class ZigFollowHandPoint : MonoBehaviour
 	public float minimumY = 0.0F;
 	public float maximumY = 0.0F;
 
-	public bool tracked = false;
+	private Vector3 objectStartPos;
+
+	[HideInInspector] private bool tracked = false;
 
 	void Start() {
-		desiredPos = transform.localPosition;
+		//desiredPos = transform.position;
+		objectStartPos = transform.position;
 		//startPos = transform.localPosition;
 	}
 	
@@ -41,17 +44,42 @@ public class ZigFollowHandPoint : MonoBehaviour
 			//transform.Translate(-pos  * Time.deltaTime);
 
 			rotationX = startPos.x - desiredPos.x;
-			rotationX = Mathf.Clamp (rotationX, minimumX, maximumX);
-
+//			rotationX = Mathf.Clamp (rotationX, minimumX, maximumX);
+//			if (rotationX < 7) {
+//			rotationX /= 10;
+//			}
+//
 			rotationY = startPos.y - desiredPos.y;
-			rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
+//			rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
+//			if (rotationY < 10) {
+//			rotationY /= 10;
+//			}
+			//float distance = (float)Math.Sqrt(Math.Pow(currentUser.Position.x - desiredPos.x, 2) + Math.Pow(currentUser.Position.y - desiredPos.y, 2));
 
-			transform.localEulerAngles = new Vector3(-rotationY, -rotationX, 0);
+			//if (distance > 5f) {
+			//transform.localEulerAngles = new Vector3(-rotationY, -rotationX, 0);
+			//}
             //float distance = Math.Abs((currentUser.Position.x - desiredPos.x) / (currentUser.Position.y - desiredPos.y));
-            float distance = (float)Math.Sqrt(Math.Pow(currentUser.Position.x - desiredPos.x, 2) + Math.Pow(currentUser.Position.y - desiredPos.y, 2));
-            if (distance > 5f) {
-                desiredPos = currentUser.Position;
-            }
+
+			Vector2 s, d;
+			s.x = startPos.x * Scale.x;
+			s.y = startPos.y * Scale.y;
+
+			d.x = desiredPos.x * Scale.x;
+			d.y = desiredPos.y * Scale.y;
+
+			float disX = s.x / (float)Math.Sqrt(Math.Pow(s.x - d.x, 2) + (float)Math.Pow(s.y - d.y, 2));
+			float disY = s.y / (float)Math.Sqrt(Math.Pow(s.x - d.x, 2) + (float)Math.Pow(s.y - d.y, 2));
+			rotationX = Mathf.Clamp(rotationX, minimumX, maximumX);
+			rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
+
+			rotationX /= 10;
+			rotationY /= 10;
+
+			transform.position = new Vector3(rotationX,rotationY,transform.position.z);
+
+            desiredPos = currentUser.Position;
+            
 		}
 		if (ZigInput.Instance.TrackedUsers.Count == 0) {
 			tracked = false;

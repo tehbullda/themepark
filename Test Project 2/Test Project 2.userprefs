@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Desktop\ScreenshotVERSION\Screenieversion\Assets\Screenshot.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs">
     <Files>
-      <File FileName="..\..\..\..\Desktop\ScreenshotVERSION\Screenieversion\Assets\Screenshot.cs" Line="48" Column="2" />
-      <File FileName="..\..\..\..\Desktop\ScreenshotVERSION\Screenieversion\Assets\TakeScreenshot.cs" Line="34" Column="2" />
+      <File FileName="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" Line="49" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
