@@ -50,6 +50,7 @@
      <Compile Include="Assets\FixCameraRotation.cs" />
      <Compile Include="Assets\KinectTest.cs" />
      <Compile Include="Assets\MenuObject.cs" />
+     <Compile Include="Assets\MicControlC.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
