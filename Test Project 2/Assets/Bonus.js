@@ -13,7 +13,7 @@ function Update() {
 }
 
 function OnCollisionEnter(collision : Collision) {
-	if (collision.transform.name == "Collision") {
+	if (collision.gameObject.name == "Collision") {
 		animation.Play("Explode");
 		ScoreJS.score++;
 		SpawnBonuses.bonus_count--;

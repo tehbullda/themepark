@@ -21,7 +21,7 @@ function Update() {
 }
 
 function OnCollisionEnter(collision : Collision) {
-	if (collision.transform.name == "Collision") {
+	if (collision.gameObject.name == "Collision") {
 		if (SpawnTarget.target_strength <= Melee.player_speed) {
 			animation.Play("Explode");
 			is_dead = true;
