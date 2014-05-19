@@ -46,11 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Countdown.cs" />
-     <Compile Include="Assets\FixCameraRotation.cs" />
-     <Compile Include="Assets\KinectTest.cs" />
-     <Compile Include="Assets\MenuObject.cs" />
-     <Compile Include="Assets\MicControlC.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
+     <Compile Include="Assets\Scripts\FixCameraRotation.cs" />
+     <Compile Include="Assets\Scripts\KinectTest.cs" />
+     <Compile Include="Assets\Scripts\MenuObject.cs" />
+     <Compile Include="Assets\Scripts\MicControlC.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />

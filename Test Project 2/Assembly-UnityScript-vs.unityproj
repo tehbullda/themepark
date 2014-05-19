@@ -46,18 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bonus.js" />
-     <Compile Include="Assets\Boss.js" />
-     <Compile Include="Assets\Collisions.js" />
-     <Compile Include="Assets\Fences.js" />
-     <Compile Include="Assets\Ground.js" />
-     <Compile Include="Assets\Melee.js" />
-     <Compile Include="Assets\ScoreJS.js" />
-     <Compile Include="Assets\SpawnBonuses.js" />
-     <Compile Include="Assets\SpawnTarget.js" />
-     <Compile Include="Assets\Speedometer_text.js" />
-     <Compile Include="Assets\misscounter.js" />
-     <Compile Include="Assets\showhighscore.js" />
+     <Compile Include="Assets\Scripts\Bonus.js" />
+     <Compile Include="Assets\Scripts\Boss.js" />
+     <Compile Include="Assets\Scripts\Collisions.js" />
+     <Compile Include="Assets\Scripts\Fences.js" />
+     <Compile Include="Assets\Scripts\Ground.js" />
+     <Compile Include="Assets\Scripts\Melee.js" />
+     <Compile Include="Assets\Scripts\ScoreJS.js" />
+     <Compile Include="Assets\Scripts\SpawnBonuses.js" />
+     <Compile Include="Assets\Scripts\SpawnTarget.js" />
+     <Compile Include="Assets\Scripts\Speedometer_text.js" />
+     <Compile Include="Assets\Scripts\misscounter.js" />
+     <Compile Include="Assets\Scripts\showhighscore.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
