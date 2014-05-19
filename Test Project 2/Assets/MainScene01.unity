@@ -301,7 +301,7 @@ MonoBehaviour:
   display_strength: 0
   space_pressed: 0
   display_score: 0
-  lost_splash: {fileID: 2800000, guid: 46a9e939037068f42959fd4f3f213dba, type: 3}
+  lost_splash: {fileID: 2800000, guid: 623b14673898bf74fb5050ce1a81ce82, type: 3}
   display_lost: 0
   AllowedMisses: 3
   lance_range: .150000006
@@ -76105,8 +76105,8 @@ MonoBehaviour:
   inputType: 0
   settings:
     UpdateDepth: 1
-    UpdateImage: 0
-    UpdateLabelMap: 0
+    UpdateImage: 1
+    UpdateLabelMap: 1
     AlignDepthToRGB: 0
     OpenNISpecific:
       Mirror: 1
@@ -82898,7 +82898,7 @@ GameObject:
   - 23: {fileID: 1811677193}
   - 114: {fileID: 1811677197}
   m_Layer: 0
-  m_Name: Test
+  m_Name: LanceTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

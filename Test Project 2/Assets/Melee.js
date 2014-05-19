@@ -284,7 +284,7 @@ public function MicDeviceGUI (left:float , top:float, width:float, height:float,
 function Update() {
     if (!player_lost) {
     if (player_missed) {
-       	//current_misses++;
+       	current_misses++;
        	if (current_misses >= AllowedMisses) {
        		player_lost = true;
        	}
