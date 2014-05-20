@@ -23,7 +23,13 @@ function Update() {
 function OnCollisionEnter(collision : Collision) {
 	if (collision.gameObject.name == "Collision") {
 		if (SpawnTarget.target_strength <= Melee.player_speed) {
-			animation.Play("Fall");
+			if (SpawnTarget.target_strength + 25 <= Melee.player_speed) {
+				transform.GetChild(0).animation.Play("Explode");
+			}
+			else {
+				transform.GetChild(0).animation.Play("Fall");
+			}
+			//animation.Play("Fall");
 			is_dead = true;
 			ScoreJS.score += 5;
 			SpawnTarget.CurrentTargetCount--;
