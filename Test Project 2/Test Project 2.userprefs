@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Boss.js">
     <Files>
-      <File FileName="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" Line="49" Column="4" />
+      <File FileName="Assets\Scripts\SpawnTarget.js" Line="44" Column="58" />
+      <File FileName="Assets\Scripts\Melee.js" Line="287" Column="10" />
+      <File FileName="Assets\Scripts\Boss.js" Line="26" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

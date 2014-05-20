@@ -6,7 +6,7 @@ var player_missed : boolean = false;
 
 function Update() {
     if (!Melee.player_lost) {
-        transform.Translate(Vector3(0, 1, 0) * (Melee.player_speed + target_speed) * Time.deltaTime);
+        transform.Translate(Vector3(0, 0, -1) * (Melee.player_speed + target_speed) * Time.deltaTime);
     }
 
 	if (transform.localPosition.z <= -18 && !is_dead && !player_missed) {
@@ -23,7 +23,7 @@ function Update() {
 function OnCollisionEnter(collision : Collision) {
 	if (collision.gameObject.name == "Collision") {
 		if (SpawnTarget.target_strength <= Melee.player_speed) {
-			animation.Play("Explode");
+			animation.Play("Fall");
 			is_dead = true;
 			ScoreJS.score += 5;
 			SpawnTarget.CurrentTargetCount--;
