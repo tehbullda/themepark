@@ -280,15 +280,21 @@ public function MicDeviceGUI (left:float , top:float, width:float, height:float,
     }
 }
 
+public var miss_feedback:GameObject;
+public var speed_feedback:GameObject;
 
 function Update() {
     if (!player_lost) {
     if (player_missed) {
        	current_misses++;
+       	var new_target : GameObject = Instantiate(miss_feedback, Vector3(0.5f, 0.6f, 0), transform.rotation);
        	if (current_misses >= AllowedMisses) {
        		player_lost = true;
        	}
        	player_missed = false;
+    }
+    if (SpawnTarget.target_strength > player_speed) {
+       	var newer_target : GameObject = Instantiate(speed_feedback, Vector3(0.5f, 0.8f, 0), transform.rotation);
     }
         lance_pos_x = transform.position.x;
         lance_pos_y = transform.position.y;

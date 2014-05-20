@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FloatingFeedback.js" />
      <Compile Include="Assets\Scripts\Bonus.js" />
      <Compile Include="Assets\Scripts\Boss.js" />
      <Compile Include="Assets\Scripts\Collisions.js" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Scripts\Speedometer_text.js" />
      <Compile Include="Assets\Scripts\misscounter.js" />
      <Compile Include="Assets\Scripts\showhighscore.js" />
+     <Compile Include="Assets\SpeedFeedback.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>

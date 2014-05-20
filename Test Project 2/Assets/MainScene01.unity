@@ -309,6 +309,8 @@ MonoBehaviour:
   lance_pos_x: 0
   lance_pos_y: 0
   lance_pos_z: 0
+  miss_feedback: {fileID: 100000, guid: 9190f3d00565bd549a7dd08d84d48e45, type: 2}
+  speed_feedback: {fileID: 100000, guid: 314c5064d70692d4ea6086c9729ea461, type: 2}
 --- !u!82 &2612649
 AudioSource:
   m_ObjectHideFlags: 0
