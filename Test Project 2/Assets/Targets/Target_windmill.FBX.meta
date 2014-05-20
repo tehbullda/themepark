@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: c44a27dc5895e004ba8a131e4a7328cc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Plane154
+    100002: Plane155
+    100004: Plane156
+    100006: Plane157
+    100008: Plane158
+    100010: Plane159
+    100012: Plane160
+    100014: Plane161
+    100016: Plane162
+    100018: Plane163
+    100020: Plane164
+    100022: Plane165
+    100024: Plane166
+    100026: Plane167
+    100028: Plane168
+    100030: Plane169
+    100032: Plane170
+    100034: //RootNode
+    400000: Plane154
+    400002: Plane155
+    400004: Plane156
+    400006: Plane157
+    400008: Plane158
+    400010: Plane159
+    400012: Plane160
+    400014: Plane161
+    400016: Plane162
+    400018: Plane163
+    400020: Plane164
+    400022: Plane165
+    400024: Plane166
+    400026: Plane167
+    400028: Plane168
+    400030: Plane169
+    400032: Plane170
+    400034: //RootNode
+    2300000: Plane154
+    2300002: Plane155
+    2300004: Plane156
+    2300006: Plane157
+    2300008: Plane158
+    2300010: Plane159
+    2300012: Plane160
+    2300014: Plane161
+    2300016: Plane162
+    2300018: Plane163
+    2300020: Plane164
+    2300022: Plane165
+    2300024: Plane166
+    2300026: Plane167
+    2300028: Plane168
+    2300030: Plane169
+    2300032: Plane170
+    3300000: Plane154
+    3300002: Plane155
+    3300004: Plane156
+    3300006: Plane157
+    3300008: Plane158
+    3300010: Plane159
+    3300012: Plane160
+    3300014: Plane161
+    3300016: Plane162
+    3300018: Plane163
+    3300020: Plane164
+    3300022: Plane165
+    3300024: Plane166
+    3300026: Plane167
+    3300028: Plane168
+    3300030: Plane169
+    3300032: Plane170
+    4300000: Plane154
+    4300002: Plane155
+    4300004: Plane156
+    4300006: Plane157
+    4300008: Plane158
+    4300010: Plane159
+    4300012: Plane160
+    4300014: Plane161
+    4300016: Plane162
+    4300018: Plane163
+    4300020: Plane164
+    4300022: Plane165
+    4300024: Plane166
+    4300026: Plane167
+    4300028: Plane168
+    4300030: Plane169
+    4300032: Plane170
+    7400000: Explode
+    7400002: Fall
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Explode
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane154
+        weight: 1
+      - path: Plane155
+        weight: 1
+      - path: Plane156
+        weight: 1
+      - path: Plane157
+        weight: 1
+      - path: Plane158
+        weight: 1
+      - path: Plane159
+        weight: 1
+      - path: Plane160
+        weight: 1
+      - path: Plane161
+        weight: 1
+      - path: Plane162
+        weight: 1
+      - path: Plane163
+        weight: 1
+      - path: Plane164
+        weight: 1
+      - path: Plane165
+        weight: 1
+      - path: Plane166
+        weight: 1
+      - path: Plane167
+        weight: 1
+      - path: Plane168
+        weight: 1
+      - path: Plane169
+        weight: 1
+      - path: Plane170
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane154
+        weight: 1
+      - path: Plane155
+        weight: 1
+      - path: Plane156
+        weight: 1
+      - path: Plane157
+        weight: 1
+      - path: Plane158
+        weight: 1
+      - path: Plane159
+        weight: 1
+      - path: Plane160
+        weight: 1
+      - path: Plane161
+        weight: 1
+      - path: Plane162
+        weight: 1
+      - path: Plane163
+        weight: 1
+      - path: Plane164
+        weight: 1
+      - path: Plane165
+        weight: 1
+      - path: Plane166
+        weight: 1
+      - path: Plane167
+        weight: 1
+      - path: Plane168
+        weight: 1
+      - path: Plane169
+        weight: 1
+      - path: Plane170
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
