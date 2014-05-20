@@ -32,7 +32,6 @@ function OnCollisionEnter(collision : Collision) {
 			//animation.Play("Fall");
 			is_dead = true;
 			ScoreJS.score += 5;
-			SpawnTarget.CurrentTargetCount--;
 		}
 	}
 }

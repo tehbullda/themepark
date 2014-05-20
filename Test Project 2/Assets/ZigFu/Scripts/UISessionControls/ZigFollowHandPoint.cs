@@ -76,7 +76,7 @@ public class ZigFollowHandPoint : MonoBehaviour
 			rotationX /= 10;
 			rotationY /= 10;
 
-			transform.position = new Vector3(-rotationX,rotationY,transform.position.z);
+            transform.position = new Vector3(-rotationX, transform.position.y, transform.position.z);
 
             desiredPos = currentUser.Position;
             

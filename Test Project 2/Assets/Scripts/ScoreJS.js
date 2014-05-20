@@ -12,5 +12,5 @@ function Start () {
 	score = 0;
 }
 function Update () {
-    obj.text = "Score: " + score.ToString() + "\nHighscore: " + highscore.ToString();
+    obj.text = "Speed Needed: " + SpawnTarget.target_strength.ToString() + "\nSpeed: " + Melee.player_speed.ToString();
 }
