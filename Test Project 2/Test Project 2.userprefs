@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SpeedFeedback.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SpeedMeterRed.js">
     <Files>
-      <File FileName="Assets\FloatingFeedback.js" Line="16" Column="24" />
-      <File FileName="Assets\Scripts\Boss.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnTarget.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Melee.js" Line="296" Column="39" />
-      <File FileName="Assets\SpeedFeedback.js" Line="15" Column="15" />
+      <File FileName="Assets\SpeedMeterRed.js" Line="8" Column="34" />
+      <File FileName="Assets\Scripts\SpawnTarget.js" Line="3" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

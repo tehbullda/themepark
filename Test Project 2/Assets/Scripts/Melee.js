@@ -286,7 +286,7 @@ public var speed_feedback:GameObject;
 function Update() {
     if (!player_lost) {
     if (player_missed) {
-       	current_misses++;
+       	//current_misses++;
        	var new_target : GameObject = Instantiate(miss_feedback, Vector3(0.5f, 0.6f, 0), transform.rotation);
        	if (current_misses >= AllowedMisses) {
        		player_lost = true;
