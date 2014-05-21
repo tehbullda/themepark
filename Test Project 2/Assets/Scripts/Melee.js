@@ -300,7 +300,7 @@ function Update() {
         lance_pos_y = transform.position.y;
         lance_pos_z = transform.position.z;
 	
-        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0) || (loudness > 0.50f && HasBeenLow)/* && !space_pressed*/) {
+        if (/*Input.GetKeyDown("space") || Input.GetMouseButtonDown(0) ||*/ (loudness > 0.50f && HasBeenLow)/* && !space_pressed*/) {
             player_speed += 5.0f;
             space_pressed = true;
             retardation = 0.995f;

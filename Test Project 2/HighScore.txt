@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 HighScore: 31
+=======
+HighScore: 7
+>>>>>>> 5f6743375ab70bbb833f4bfe797748f00fb0b49a
