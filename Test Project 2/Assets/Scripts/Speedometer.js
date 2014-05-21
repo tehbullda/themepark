@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 private var speed_indicator : GameObject;
-public var indicator_max_speed : float = 120.0f;
+public static var indicator_max_speed : float = 120.0f;
 // Use this for initialization
 function Start () {
     for (var i = 0; i < transform.childCount; i++) {
@@ -33,24 +33,5 @@ function Update () {
     if (percentage > 1.0f) {
         nextpos = 3.15f;    
     }
-    //if (percentage < 1.0f) {
-    //    nextpos = (1.35f * percentage) - 3.15f;
-    //}
-    //else if (percentage >= 1f && percentage < 1.5f) {
-    //    percentage -= 1f;
-    //    percentage *= 2f;
-    //    nextpos = (2.8f * percentage) - 1.8f;
-    //}
-    //else if (percentage >= 1.5f && percentage < 2.0f){
-    //    percentage -= 1.5f;
-    //    percentage *= 2f;
-    //    nextpos = (2.15f * percentage) + 1f;
-    //}
-    //else {
-	//    nextpos = 3.15f;
-    //}
-    //if (nextpos > 4f) {
-    //nextpos = 4f;
-    //}
     speed_indicator.transform.localPosition = new Vector3(nextpos, speed_indicator.transform.localPosition.y,speed_indicator.transform.localPosition.z);
 }

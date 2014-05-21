@@ -13,7 +13,7 @@ public class ZigImageViewer : MonoBehaviour
     // Use this for initialization
 
     private int screenshotCount = 0;
-	public static float waitTime = 5.0f;
+	public static float waitTime = 3.0f;
 	static bool pictureTaken = false;
 
 
