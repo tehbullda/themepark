@@ -356,10 +356,11 @@ function OnGUI() {
         display_lost = player_lost;
         GUI.DrawTexture(Rect(0,0,Screen.width,Screen.height), lost_splash, ScaleMode.ScaleToFit);
         if (ScoreJS.score > ScoreJS.highscore) {
-        	var  fileName = "HighScore.txt";
+            var  fileName = "HighScore.txt";
 	        var sr = File.CreateText(fileName);
 	        sr.WriteLine ("HighScore: {0}", ScoreJS.score);
 	        sr.Close(); 
+	        PlayerPrefs.SetInt("High Score", ScoreJS.score);
         }
     }
 }

@@ -73321,7 +73321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1811677196}
-  damping: 6
+  damping: 10
   smooth: 1
 --- !u!23 &1585567226
 Renderer:
