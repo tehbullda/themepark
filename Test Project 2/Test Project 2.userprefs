@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnBonuses.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Bonus.js">
     <Files>
-      <File FileName="Assets\Scripts\Bonus.js" Line="22" Column="2" />
-      <File FileName="Assets\Scripts\SpawnBonuses.js" Line="19" Column="36" />
+      <File FileName="Assets\Scripts\Bonus.js" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
