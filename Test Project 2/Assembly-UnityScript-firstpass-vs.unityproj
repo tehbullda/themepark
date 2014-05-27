@@ -54,7 +54,11 @@
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+<<<<<<< HEAD
      <None Include="Assets\HighScore.txt" />
+=======
+     <None Include="Assets\Standard Assets\Scripts\Skyboxes\_skybox info.txt" />
+>>>>>>> d150616aa702678f00a33b63c750d6ddf9540f2e
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>
