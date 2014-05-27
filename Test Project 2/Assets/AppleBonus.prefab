@@ -1497,6 +1497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bonus_speed: 5
+  bonus_score: 50
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

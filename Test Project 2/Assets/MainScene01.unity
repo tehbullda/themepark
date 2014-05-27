@@ -9118,7 +9118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f037bf71e62219644b99258b82b373cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bonus_object: {fileID: 0}
+  apple_bonus: {fileID: 0}
+  pumpkin_bonus: {fileID: 0}
+  watermelon_bonus: {fileID: 0}
   minimum_bonus_spawn_time: 1
   maximum_bonus_spawn_time: 1
   AllowedBonusCount: 10
@@ -22391,7 +22393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f037bf71e62219644b99258b82b373cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bonus_object: {fileID: 100050, guid: 3ffd1ec0081be384f8c2558850b0686f, type: 2}
+  apple_bonus: {fileID: 100050, guid: 3ffd1ec0081be384f8c2558850b0686f, type: 2}
+  pumpkin_bonus: {fileID: 100046, guid: 95ee5ef81d30f1546aa8ab90cc935029, type: 2}
+  watermelon_bonus: {fileID: 100044, guid: 1048f9c1f9daac64ca25234b44de691a, type: 2}
   minimum_bonus_spawn_time: 1
   maximum_bonus_spawn_time: 1
   AllowedBonusCount: 10
