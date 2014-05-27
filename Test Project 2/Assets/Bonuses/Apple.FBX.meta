@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 77c0ea840a42b7348bb4560981cfde20
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane002done001
+    100004: Plane003done001
+    100006: Plane005done001
+    100008: Plane006done001
+    100010: Plane011done001
+    100012: Plane012done001
+    100014: Plane013DONE001
+    100016: Plane014DONE001
+    100018: Plane015done001
+    100020: Plane016done001
+    100022: Plane017done001
+    100024: Plane018DONE001
+    100026: Plane021DONE001
+    100028: Plane022DONE001
+    100030: Plane023DONE001
+    100032: Plane024DONE001
+    100034: Plane025DONE001
+    100036: Plane027
+    100038: Plane028
+    100040: Plane029
+    100042: Plane030
+    100044: Plane031
+    100046: Plane032
+    100048: Plane033
+    100050: Plane034
+    400000: //RootNode
+    400002: Plane002done001
+    400004: Plane003done001
+    400006: Plane005done001
+    400008: Plane006done001
+    400010: Plane011done001
+    400012: Plane012done001
+    400014: Plane013DONE001
+    400016: Plane014DONE001
+    400018: Plane015done001
+    400020: Plane016done001
+    400022: Plane017done001
+    400024: Plane018DONE001
+    400026: Plane021DONE001
+    400028: Plane022DONE001
+    400030: Plane023DONE001
+    400032: Plane024DONE001
+    400034: Plane025DONE001
+    400036: Plane027
+    400038: Plane028
+    400040: Plane029
+    400042: Plane030
+    400044: Plane031
+    400046: Plane032
+    400048: Plane033
+    400050: Plane034
+    2300000: Plane002done001
+    2300002: Plane003done001
+    2300004: Plane005done001
+    2300006: Plane006done001
+    2300008: Plane011done001
+    2300010: Plane012done001
+    2300012: Plane013DONE001
+    2300014: Plane014DONE001
+    2300016: Plane015done001
+    2300018: Plane016done001
+    2300020: Plane017done001
+    2300022: Plane018DONE001
+    2300024: Plane021DONE001
+    2300026: Plane022DONE001
+    2300028: Plane023DONE001
+    2300030: Plane024DONE001
+    2300032: Plane025DONE001
+    2300034: Plane027
+    2300036: Plane028
+    2300038: Plane029
+    2300040: Plane030
+    2300042: Plane031
+    2300044: Plane032
+    2300046: Plane033
+    2300048: Plane034
+    3300000: Plane002done001
+    3300002: Plane003done001
+    3300004: Plane005done001
+    3300006: Plane006done001
+    3300008: Plane011done001
+    3300010: Plane012done001
+    3300012: Plane013DONE001
+    3300014: Plane014DONE001
+    3300016: Plane015done001
+    3300018: Plane016done001
+    3300020: Plane017done001
+    3300022: Plane018DONE001
+    3300024: Plane021DONE001
+    3300026: Plane022DONE001
+    3300028: Plane023DONE001
+    3300030: Plane024DONE001
+    3300032: Plane025DONE001
+    3300034: Plane027
+    3300036: Plane028
+    3300038: Plane029
+    3300040: Plane030
+    3300042: Plane031
+    3300044: Plane032
+    3300046: Plane033
+    3300048: Plane034
+    4300000: Plane002done001
+    4300002: Plane003done001
+    4300004: Plane027
+    4300006: Plane005done001
+    4300008: Plane006done001
+    4300010: Plane028
+    4300012: Plane029
+    4300014: Plane030
+    4300016: Plane031
+    4300018: Plane011done001
+    4300020: Plane012done001
+    4300022: Plane013DONE001
+    4300024: Plane014DONE001
+    4300026: Plane015done001
+    4300028: Plane016done001
+    4300030: Plane017done001
+    4300032: Plane018DONE001
+    4300034: Plane032
+    4300036: Plane033
+    4300038: Plane021DONE001
+    4300040: Plane022DONE001
+    4300042: Plane023DONE001
+    4300044: Plane024DONE001
+    4300046: Plane025DONE001
+    4300048: Plane034
+    7400000: Explode
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Explode
+      takeName: Take 001
+      firstFrame: 8
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane002done001
+        weight: 1
+      - path: Plane003done001
+        weight: 1
+      - path: Plane005done001
+        weight: 1
+      - path: Plane006done001
+        weight: 1
+      - path: Plane011done001
+        weight: 1
+      - path: Plane012done001
+        weight: 1
+      - path: Plane013DONE001
+        weight: 1
+      - path: Plane014DONE001
+        weight: 1
+      - path: Plane015done001
+        weight: 1
+      - path: Plane016done001
+        weight: 1
+      - path: Plane017done001
+        weight: 1
+      - path: Plane018DONE001
+        weight: 1
+      - path: Plane021DONE001
+        weight: 1
+      - path: Plane022DONE001
+        weight: 1
+      - path: Plane023DONE001
+        weight: 1
+      - path: Plane024DONE001
+        weight: 1
+      - path: Plane025DONE001
+        weight: 1
+      - path: Plane027
+        weight: 1
+      - path: Plane028
+        weight: 1
+      - path: Plane029
+        weight: 1
+      - path: Plane030
+        weight: 1
+      - path: Plane031
+        weight: 1
+      - path: Plane032
+        weight: 1
+      - path: Plane033
+        weight: 1
+      - path: Plane034
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
