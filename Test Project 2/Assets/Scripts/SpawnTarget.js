@@ -24,6 +24,7 @@ function Start () {
 	CurrentTargetCount = 0;
 	target_spawn_time = Random.Range(minimum_target_spawn_time, maximum_target_spawn_time);
 	target_strength = 1.0f;
+	current_target = 0;
 }
 
 function Update () {

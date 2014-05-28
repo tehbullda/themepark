@@ -10,6 +10,8 @@ static var bonus_count : int = 0;
 public var AllowedBonusCount : int = 10;
 
 function Start() { 
+	bonus_count = 0;
+	bonus_spawn_time = 0f;
 }
 
 function Update () {

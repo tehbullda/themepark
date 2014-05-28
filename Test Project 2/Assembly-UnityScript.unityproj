@@ -61,8 +61,16 @@
      <Compile Include="Assets\Scripts\showhighscore.js" />
      <Compile Include="Assets\SpeedFeedback.js" />
      <Compile Include="Assets\SpeedMeterRed.js" />
+     <Compile Include="Assets\cameraidlemovement.js" />
+     <Compile Include="Assets\camerapanning.js" />
+     <Compile Include="Assets\coconutanim.js" />
+     <Compile Include="Assets\fadetext.js" />
+     <Compile Include="Assets\moveout.js" />
      <Compile Include="Assets\rotateknight.js" />
+     <Compile Include="Assets\switchlayer.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Scripts\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\HighScore.txt" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>

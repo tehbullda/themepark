@@ -80,6 +80,8 @@
      <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\kinectSpecific.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Scripts\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\HighScore.txt" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>

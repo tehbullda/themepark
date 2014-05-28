@@ -2,6 +2,7 @@
 
 var bonus_speed : float = 5.0f;
 public var bonus_score : int = 1;
+public var myClip : AudioClip[];
 
 function Update() {
     if (!Melee.player_lost) {
@@ -16,7 +17,11 @@ function Update() {
 function OnCollisionEnter(collision : Collision) {
 	if (collision.gameObject.name == "Collision") {
 		animation.Play("Explode");
+		audio.clip = myClip[0];
+	    audio.Play();
 		ScoreJS.score += bonus_score;
 		SpawnBonuses.bonus_count--;
+	
 	}
+     
 }
