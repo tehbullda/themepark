@@ -8,7 +8,7 @@ import System.IO;
 var SelectIngame:boolean=false;
 //if false the below will override and set the mic selected in the editor
 //Select the microphone you want to use (supported up to 6 to choose from). If the device has number 1 in the console, you should select default as it is the first defice to be found.
-enum Devices {DefaultDevice, Second, Third, Fourth, Fifth, Sixth}
+//enum Devices {DefaultDevice, Second, Third, Fourth, Fifth, Sixth}
  
 var InputDevice : Devices;
 private var selectedDevice:String;
@@ -66,6 +66,10 @@ function Start() {
 	player_lost = false;
 	killscreen_currenttime = 0.0f;
 	display_lost = false;
+	player_missed = false;
+	current_misses = 0;
+	mTimer = 0.0f;
+	recording = true;
 
 	if(!audioSource){
 	    audioSource = GetComponent(AudioSource);

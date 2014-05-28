@@ -1,13 +1,14 @@
 ﻿#pragma strict
 
-
+// 8 GUI-layer
+// 9 Hidden-layer
 var speed : float = 1f;
 var timeInEachDir : float = 2.5f;
 
 private var direction : float = 0.1f;
 private var currentTime : float = 0.0f;
 function Start () {
-
+	currentTime = 0f;
 }
 
 function FixedUpdate () {

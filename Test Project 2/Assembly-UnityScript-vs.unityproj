@@ -62,13 +62,15 @@
      <Compile Include="Assets\SpeedFeedback.js" />
      <Compile Include="Assets\SpeedMeterRed.js" />
      <Compile Include="Assets\cameraidlemovement.js" />
+     <Compile Include="Assets\camerapanning.js" />
+     <Compile Include="Assets\coconutanim.js" />
+     <Compile Include="Assets\fadetext.js" />
+     <Compile Include="Assets\moveout.js" />
      <Compile Include="Assets\rotateknight.js" />
+     <Compile Include="Assets\switchlayer.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-<<<<<<< HEAD
-     <None Include="Assets\HighScore.txt" />
-=======
      <None Include="Assets\Standard Assets\Scripts\Skyboxes\_skybox info.txt" />
->>>>>>> d150616aa702678f00a33b63c750d6ddf9540f2e
+     <None Include="Assets\HighScore.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
