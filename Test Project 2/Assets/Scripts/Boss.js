@@ -48,7 +48,7 @@ function OnCollisionEnter(collision : Collision) {
 			}
 			//animation.Play("Fall");
 			is_dead = true;
-			ScoreJS.score += 5;
+			ScoreJS.score += Mathf.Floor(Melee.player_speed);
 		}
 	}
 }
