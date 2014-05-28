@@ -14,5 +14,5 @@ function Start () {
 	score = 0;
 }
 function Update () {
-    obj.text = "Score: " + score.ToString() + "\nHigh Score: " + highscore.ToString();
+    obj.text = "Score: " + SpawnBonuses.bonus_spawn_time.ToString() + "\nHigh Score: " + highscore.ToString();
 }
