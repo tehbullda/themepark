@@ -36,44 +36,37 @@ function Update () {
 	
 	if (target_spawn_time <= 0 && CurrentTargetCount < MaximumAllowedTargets) {
 		var new_target : GameObject;
+			current_target++;
 		if (current_target <= 2) {
 			new_target = Instantiate(target_dummy, Vector3(-3.5f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 3;
 		}
 		else if (current_target == 3) {
 			new_target = Instantiate(target_windmill, Vector3(3.3f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 4) {
 			new_target = Instantiate(target_knight, Vector3(-2.8f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 5) {
 			new_target = Instantiate(target_knight_two, Vector3(-2.8f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 6) {
 			new_target = Instantiate(target_black_knight, Vector3(1.0f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 7) {
 			new_target = Instantiate(target_tengil, Vector3(-3.5f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 8) {
-			new_target = Instantiate(target_headless_horseman, Vector3(-5.0f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
+			new_target = Instantiate(target_headless_horseman, Vector3(0.65f, 0.35f, 240.0f), transform.rotation);
 			target_strength += 10;
 		}
 		else if (current_target == 9) {
-			new_target = Instantiate(target_threeheaded_knight, Vector3(1.8f, 0.35f, 240.0f), transform.rotation);
-			current_target++;
+			new_target = Instantiate(target_threeheaded_knight, Vector3(4.0f, 0.35f, 240.0f), transform.rotation);
 			target_strength += 10;
 		}
 		else if (current_target == 10) {
