@@ -6,6 +6,7 @@ public var display_strength : float = 0.0f;
 public var target_dummy : GameObject;
 public var target_windmill : GameObject;
 public var target_knight : GameObject;
+public var target_knight_two : GameObject;
 public var target_black_knight : GameObject;
 public var target_tengil : GameObject;
 public var target_headless_horseman : GameObject;
@@ -50,26 +51,31 @@ function Update () {
 			target_strength += 10;
 		}
 		else if (current_target == 5) {
-			new_target = Instantiate(target_black_knight, Vector3(1.0f, 0.35f, 240.0f), transform.rotation);
+			new_target = Instantiate(target_knight_two, Vector3(-2.8f, 0.35f, 240.0f), transform.rotation);
 			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 6) {
-			new_target = Instantiate(target_tengil, Vector3(-3.5f, 0.35f, 240.0f), transform.rotation);
+			new_target = Instantiate(target_black_knight, Vector3(1.0f, 0.35f, 240.0f), transform.rotation);
 			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 7) {
-			new_target = Instantiate(target_headless_horseman, Vector3(-5.0f, 0.35f, 240.0f), transform.rotation);
+			new_target = Instantiate(target_tengil, Vector3(-3.5f, 0.35f, 240.0f), transform.rotation);
 			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 8) {
-			new_target = Instantiate(target_threeheaded_knight, Vector3(1.8f, 0.35f, 240.0f), transform.rotation);
+			new_target = Instantiate(target_headless_horseman, Vector3(-5.0f, 0.35f, 240.0f), transform.rotation);
 			current_target++;
 			target_strength += 10;
 		}
 		else if (current_target == 9) {
+			new_target = Instantiate(target_threeheaded_knight, Vector3(1.8f, 0.35f, 240.0f), transform.rotation);
+			current_target++;
+			target_strength += 10;
+		}
+		else if (current_target == 10) {
 			new_target = Instantiate(target_dragon, Vector3(-1.1f, 0.35f, 240.0f), transform.rotation);
 			current_target = 3;
 			target_strength += 10;

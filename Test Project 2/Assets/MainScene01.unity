@@ -9096,6 +9096,7 @@ MonoBehaviour:
   target_dummy: {fileID: 100038, guid: 697674e7f0cbd6740ba9ec64e6682373, type: 2}
   target_windmill: {fileID: 100036, guid: 26d273c55a66d594882070c97f01dce7, type: 2}
   target_knight: {fileID: 100034, guid: 06a878f48f286594f9034acd7b10610e, type: 2}
+  target_knight_two: {fileID: 100000, guid: a27676e3010049d4d84549307c3e2deb, type: 2}
   target_black_knight: {fileID: 100036, guid: ddbd56ca8bf087f45bd8b91f92fca637, type: 2}
   target_tengil: {fileID: 100036, guid: a227158112d95b547a75ffcfbda32ff9, type: 2}
   target_headless_horseman: {fileID: 100034, guid: 3ccaf14772670d4409c3ebb9bd72ed2c,
